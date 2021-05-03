@@ -19,7 +19,7 @@ function ellenorzes(){
     probaDb++;
     if($("tipp").value == random){
         $("eredmeny").innerHTML='<img src="Images/egyenlo.png" id="kepEgyenlo" alt="Egyenlő">';
-        $("stat").innerText="Ennyiszer próbálkoztál: "+probaDb;
+        $("stat").innerText="Próbálkozásaid száma: "+probaDb;
         $("ujjatek").style.visibility="visible";
     }
     if($("tipp").value > random){
