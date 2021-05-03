@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Számkitalálós</title>
-    <link href="css/stílus.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/stilus.css" rel="stylesheet">
     <script src="js/alap.js"></script>
 </head>
 <body>
-    <h1></h1>
-    <dir>teszt--2</dir>
+<h1>Találd ki a számot!</h1>
+    <form>
+        <label for="tipp">Tipp:</label>
+        <input type="number" id="tipp" value="1" min="1" max="1024"><br>
+        <input type="button" value="Ellenörzés" id="tippbtn">
+    </form>
+
+    <div id="eredmeny">
+    </div>
+
+    <div id="stat">
+
+    </div>
+
+    <input type="button" value="Új játék" id="ujjatek">
 </body>
 </html>

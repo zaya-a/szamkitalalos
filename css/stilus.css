@@ -1,0 +1,14 @@
+body {
+  margin: 5px;
+}
+
+#eredmeny {
+  margin: 5px 0px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#ujjatek {
+  visibility: hidden;
+}
