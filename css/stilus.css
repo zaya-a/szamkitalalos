@@ -1,14 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 body {
   margin: 5px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
 }
 
 #eredmeny {
-  margin: 5px 0px;
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
+  width: 230px;
+  height: 230px;
+
 }
 
 #ujjatek {
   visibility: hidden;
 }
+
+h1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 60px;
+}
+#tippbtn{
+  background-color:rgba(36, 160, 243, 0.527);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 200px;
+}
+#tippbtn:hover{
+  transition: 0.3s;
+  background-color:rgba(36, 160, 243, 0.808);
+  border-radius: 35px;
+}
+#kep{
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: left;
+}
+#kepEgyenlo{
+  border-radius: 10px;
+  text-align: left;
+}
+#tipp{
+  border-radius: 10px;
+}
+#ujjatek{
+  color:white;
+  border-radius: 10px;
+  width: 300px;
+  animation: myanimation 10s infinite;
+}
+#ujjatek:hover{
+  transition: 0.3s;
+  background-color:rgb(69, 180, 41, 0.9);
+  border-radius: 35px;
+}
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
+}
+

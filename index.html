@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <title>Számkitalálós</title>
@@ -7,22 +8,38 @@
     <link href="css/stilus.css" rel="stylesheet">
     <script src="js/alap.js"></script>
 </head>
+
 <body>
-    <h1> Aux Teszt</h1>
-<h1>Találd ki a számot!</h1>
-    <form>
-        <label for="tipp">Tipp:</label>
-        <input type="number" id="tipp" value="1" min="1" max="1024"><br>
-        <input type="button" value="Ellenörzés" id="tippbtn">
-    </form>
 
-    <div id="eredmeny">
+    <h1>Találd ki a számot!</h1>
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-sm-6 text-right">
+                <form>
+                    <label for="tipp">Tipp:</label>
+                    <input type="number" id="tipp" value="1" min="1" max="1024"><br>
+                    <input type="button" value="Ellenőrzés" id="tippbtn">
+                </form>
+            </div>
+            <div class=" col-12 col-sm-6">
+                <div id="eredmeny">
+        
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <div id="stat">
+
+                </div>
+                <input type="button" value="Új játék" id="ujjatek">
+            </div>
+        </div>
     </div>
 
-    <div id="stat">
 
-    </div>
 
-    <input type="button" value="Új játék" id="ujjatek">
+
 </body>
+
 </html>

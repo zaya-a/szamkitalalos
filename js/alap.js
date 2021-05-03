@@ -18,15 +18,15 @@ console.log(random);
 function ellenorzes(){
     probaDb++;
     if($("tipp").value == random){
-        $("eredmeny").innerText="=";
-        $("stat").innerText="ennyiszer próbálkozott: "+probaDb;
+        $("eredmeny").innerHTML='<img src="Images/egyenlo.png" id="kepEgyenlo" alt="Egyenlő">';
+        $("stat").innerText="Ennyiszer próbálkoztál: "+probaDb;
         $("ujjatek").style.visibility="visible";
     }
     if($("tipp").value > random){
-        $("eredmeny").innerText="lefelényíl";
+        $("eredmeny").innerHTML='<img src="Images/le.png" id="kep" alt="Kisebb">';
     }
     if($("tipp").value < random){
-        $("eredmeny").innerText="felfelényíl";
+        $("eredmeny").innerHTML='<img src="Images/fel.png" id="kep" alt="Nagyobb">';
     }
 }
 
