@@ -3,6 +3,7 @@ body {
   margin: 5px;
   font-family: 'Nunito', sans-serif;
   font-size: 35px;
+  background-color: rgba(36, 160, 243);
 }
 
 #eredmeny {
@@ -14,7 +15,9 @@ body {
 #ujjatek {
   visibility: hidden;
 }
-
+h2{
+  text-align: center;
+}
 h1{
   text-align: center;
   margin-top: 10px;
@@ -50,6 +53,7 @@ h1{
   border-radius: 10px;
   width: 300px;
   animation: myanimation 10s infinite;
+  margin-bottom: 20px;
 }
 #ujjatek:hover{
   transition: 0.3s;
@@ -62,5 +66,10 @@ h1{
   50%{background-color:green;}
   75%{background-color:brown;}
   100% {background-color: red;}
+}
+.container{
+  background-color: white;
+  width: 650px;
+  margin-top:100px
 }
 
